@@ -254,12 +254,12 @@ function makeNewOrganismDescription(newOrganismCount: number) {
     <>
       {newOrganismCount === 1 ? (
         <>
-          there is 1 {NEW} organism. View it by typing "new" into the search
+          there is 1 {NEW} organism since the last time you set your Organism Preferences. View it by typing "new" into the search
           box.
         </>
       ) : (
         <>
-          there are {newOrganismCount} {NEW} organisms. View them by typing
+          there are {newOrganismCount} {NEW} organisms since the last time you set your Organism Preferences. View them by typing
           "new" into the search box.
         </>
       )}
