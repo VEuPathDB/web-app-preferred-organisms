@@ -45,7 +45,7 @@ export const makeDatasetMetadataRecoilState = memoize(
     const datasetRecords$: Promise<RecordInstance[]> = wdkService
       .sendRequest(ok, {
         useCache: true,
-        cacheId: 'org-prefs-dataset-metadata',
+        cachedId: 'org-prefs-dataset-metadata',
         method: 'post',
         path: wdkService.getStandardSearchReportEndpoint(
           'dataset',
